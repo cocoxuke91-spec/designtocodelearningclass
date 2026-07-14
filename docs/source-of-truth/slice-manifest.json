@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "classification": "derived-evidence",
+  "parentSourceId": "pmagic-ai-original",
+  "parentPath": "reference/pmagic-ai-original.png",
+  "parentSha256": "a39dac4287deeb97196c12257ba25bc85d06f977804716dc36b4742c1e7e5632",
+  "coordinateSystem": {
+    "origin": "top-left",
+    "unit": "source pixels",
+    "sourceWidth": 2876,
+    "sourceHeight": 8752
+  },
+  "generator": "../../scripts/create-reference-slices.sh",
+  "figmaPresentation": {
+    "fileKey": "xVQzYRrwbBSwPb4BRbVpCc",
+    "pageNodeId": "41:30",
+    "sectionNodeId": "50:2",
+    "stackNodeId": "50:5",
+    "sectionName": "Reference Slices / 原图切片校验",
+    "displayImageWidth": 1200,
+    "displayScale": 0.4172461752433936,
+    "createdOn": "2026-07-13",
+    "purpose": "Human review of section boundaries by seamlessly reassembling all derived slices beside their source coordinates."
+  },
+  "policy": [
+    "Slices are lossless full-width crops of the parent source.",
+    "Slices are derived evidence and never override the parent source.",
+    "Slice boundaries are human-selected section boundaries and may be revised through the decision log.",
+    "Do not edit generated slice files by hand."
+  ],
+  "coverage": {
+    "startsAtY": 0,
+    "endsBeforeY": 8752,
+    "hasGaps": false,
+    "hasOverlaps": false
+  },
+  "slices": [
+    {
+      "id": "navbar",
+      "path": "reference/slices/00-navbar.png",
+      "crop": { "x": 0, "y": 0, "width": 2876, "height": 250 },
+      "sha256": "6e314962c45cf54000fa576186dc5cd6796a6f15c29a50bdec18dbb6314a6d06"
+    },
+    {
+      "id": "hero",
+      "path": "reference/slices/01-hero.png",
+      "crop": { "x": 0, "y": 250, "width": 2876, "height": 1320 },
+      "sha256": "a9b968ae54053152a3ceb9862d5ee59fdf1526f65e4ac6a97132248dc6dd897e"
+    },
+    {
+      "id": "primary-metrics",
+      "path": "reference/slices/02-primary-metrics.png",
+      "crop": { "x": 0, "y": 1570, "width": 2876, "height": 650 },
+      "sha256": "4bb3199bc69ebbc5b5a1c585f012f30aee8fe534ea1e70ddd030459899b9722c"
+    },
+    {
+      "id": "problem-cards",
+      "path": "reference/slices/03-problem-cards.png",
+      "crop": { "x": 0, "y": 2220, "width": 2876, "height": 750 },
+      "sha256": "d76e4a07fa673a62a57d25af46397dbc9cd0de2e78b909b06bf204928a9919b3"
+    },
+    {
+      "id": "agent-architecture",
+      "path": "reference/slices/04-agent-architecture.png",
+      "crop": { "x": 0, "y": 2970, "width": 2876, "height": 1300 },
+      "sha256": "802e4f9714389a1cf00253087f72a362ea13382cf1fdbd461652a198fa8bf50b"
+    },
+    {
+      "id": "intelligent-modules",
+      "path": "reference/slices/05-intelligent-modules.png",
+      "crop": { "x": 0, "y": 4270, "width": 2876, "height": 1060 },
+      "sha256": "9c8d0c8ffe0daa420d9f9a47f7a0140b066522de256fc214f5eb39a0c8d547b0"
+    },
+    {
+      "id": "case-study",
+      "path": "reference/slices/06-case-study.png",
+      "crop": { "x": 0, "y": 5330, "width": 2876, "height": 1240 },
+      "sha256": "ea6f240468b971a3f30a1682d34fcee8bbf26d167479b92d353ba4893c50103b"
+    },
+    {
+      "id": "whitepapers",
+      "path": "reference/slices/07-whitepapers.png",
+      "crop": { "x": 0, "y": 6570, "width": 2876, "height": 1170 },
+      "sha256": "14d55e637b28e2496afe61ce837e1abba16cdfa103de61756ebc055e5729b966"
+    },
+    {
+      "id": "closing-cta",
+      "path": "reference/slices/08-closing-cta.png",
+      "crop": { "x": 0, "y": 7740, "width": 2876, "height": 590 },
+      "sha256": "baf0abef561e13b2f38025c1c5625b7ba32db89d219440d50c5e9c22df09a376"
+    },
+    {
+      "id": "footer",
+      "path": "reference/slices/09-footer.png",
+      "crop": { "x": 0, "y": 8330, "width": 2876, "height": 422 },
+      "sha256": "ed77ab4e36a642674689b12229e948f42dc03e17009706fa6a5d791e37f74978"
+    }
+  ]
+}

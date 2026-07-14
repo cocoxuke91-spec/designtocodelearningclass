@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "sourceId": "pmagic-ai-original",
+  "type": "image/png",
+  "path": "reference/pmagic-ai-original.png",
+  "provenance": "User-supplied clipboard image",
+  "capturedAt": null,
+  "pixelWidth": 2876,
+  "pixelHeight": 8752,
+  "colorSpace": "RGB",
+  "bitDepth": 8,
+  "interlaced": false,
+  "sha256": "a39dac4287deeb97196c12257ba25bc85d06f977804716dc36b4742c1e7e5632",
+  "notes": [
+    "This file is the primary immutable visual reference.",
+    "The original website URL, viewport, device-pixel ratio and font files are unknown."
+  ],
+  "supplementalSources": [
+    {
+      "sourceId": "agent-core-primary",
+      "scope": "Hero and architecture-section central 3D agent-core artwork only",
+      "authority": "Primary visual evidence within the declared scope; supersedes the full-page screenshot for artwork geometry, color, materials, proportions and camera angle",
+      "type": "image/png",
+      "path": "reference/agent-core-primary.png",
+      "provenance": "User-supplied image on 2026-07-13",
+      "pixelWidth": 2048,
+      "pixelHeight": 2048,
+      "colorSpace": "RGB",
+      "bitDepth": 8,
+      "sha256": "b960aa1f0e98b8357592ab4082509ac7ce8c96ec5c62402424b0f3969c1e4398",
+      "immutable": true,
+      "notes": [
+        "Preserve the eight-arm geometry, arm order, color palette, glossy bevels, transparent pedestal, proportions and shared camera angle.",
+        "The white background, Dreamina AI watermark, AI badge and surrounding orbit graphics are not production content and may be removed in derived assets."
+      ]
+    }
+  ],
+  "derivedAssets": [
+    {
+      "assetId": "metric-glass-icons-v1",
+      "path": "../../public/assets/icons/metrics/",
+      "derivedFrom": "pmagic-ai-original",
+      "role": "Four transparent metric-card icons, cropped from the generated reference-style sheet",
+      "provenance": "Derived from user-supplied reference screenshots and generated style-matched artwork"
+    },
+    {
+      "assetId": "ui-icons-lucide-style",
+      "path": "../../app/LandingPage.tsx",
+      "role": "Inline SVG interface icons for pain points, architecture layers and capability modules",
+      "provenance": "Lucide icon geometry/style; ISC license",
+      "sourceUrl": "https://github.com/lucide-icons/lucide"
+    },
+    {
+      "assetId": "agent-core-transparent-v2",
+      "path": "../../public/assets/agent-core-transparent-v2.png",
+      "derivedFrom": "agent-core-primary",
+      "role": "Transparent production still"
+    },
+    {
+      "assetId": "agent-core-loop-v2-webp",
+      "path": "../../public/assets/agent-core-loop-v2.webp",
+      "derivedFrom": "agent-core-primary",
+      "role": "Transparent looping website animation"
+    },
+    {
+      "assetId": "agent-core-loop-v2-mp4",
+      "path": "../../public/assets/agent-core-loop-v2.mp4",
+      "derivedFrom": "agent-core-primary",
+      "role": "Portable six-second looping video with a pale page-matched background"
+    }
+  ]
+}
