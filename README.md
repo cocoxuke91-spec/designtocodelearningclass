@@ -13,6 +13,10 @@ npm run dev
 
 打开 <http://localhost:3000/> 查看页面。
 
+## Vercel 部署
+
+项目包含 `vercel.json`，会使用 Next.js 构建入口。Vercel 项目设置中保持 Next.js 框架预设，Output Directory 留空即可。
+
 ## 目录约定
 
 - `app/`：页面、组件与全局样式
